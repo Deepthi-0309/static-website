@@ -3,7 +3,7 @@ cafe static steps
 
 New item -> static_step1 (freestyle and create)
 Source code management
-(choose git repo url from VIJETH2001)
+(choose git repo url from VIJETH2001/this)
 change to main or master
 Build Steps
 ->Execute shell
@@ -26,11 +26,11 @@ go to browser and search localhost(cafe web is deployed now)
 New item-> static_step2
 copy from static_step1
 add build step-> Docker Build and Publish
-->repo name- vijeth2001/staticapp
+->repo name- deepthidocker0704/staticapp
 ->tag- v1
 -> registry credentials-(choose docker credentials) 
 Add build step -> Execute shell
-docker run -it -d 8001:8081 vijeth2001/staticapp
+docker run -it -d 8001:8081 deepthidocker0704/staticapp
 save and build
 
 go to browser and type localhost:8001
