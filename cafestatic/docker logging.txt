@@ -1,8 +1,9 @@
 docker logging in
-
+on terminal
 sudo su jenkins
 -> docker login
 (enter docker login credentials) 
+exit
 
 on terminal 
 sudo docker login (Add credentials)
